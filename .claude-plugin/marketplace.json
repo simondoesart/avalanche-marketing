@@ -1,0 +1,16 @@
+{
+  "name": "avalanche-marketing-hub",
+  "owner": {
+    "name": "Ava Labs Creative",
+    "email": "avalabscreative@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "avalanche-marketing",
+      "source": "./",
+      "description": "One-stop shop for Avalanche marketers: brand knowledge, tone of voice, audits, copywriting, campaign and creative strategy — Technology Built for Business.",
+      "version": "0.2.0",
+      "author": { "name": "Ava Labs Creative" }
+    }
+  ]
+}
