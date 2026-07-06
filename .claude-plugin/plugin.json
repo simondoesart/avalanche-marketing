@@ -1,0 +1,9 @@
+{
+  "name": "avalanche-marketing",
+  "version": "0.1.0",
+  "description": "One-stop shop for Avalanche marketers: brand knowledge, tone of voice, competitive/social/trends audits, copywriting, campaign and creative strategy, PR hooks, and asset links — all through the lens of Avalanche is Built for Business.",
+  "author": {
+    "name": "Ava Labs Creative"
+  },
+  "keywords": ["avalanche", "marketing", "brand", "audit", "copywriting", "strategy"]
+}
