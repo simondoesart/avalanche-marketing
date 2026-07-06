@@ -36,14 +36,13 @@ A one-stop shop for the Avalanche marketing team, trained on Avalanche documenta
 - `resource-links.md` — public links
 - `messaging-framework-PRIVATE.md`, `resource-links-PRIVATE.md` — internal only (see below)
 
-## Privacy model — read before pushing
+## Privacy model
 
-The repo's visibility is not yet decided, so it is treated as **public**:
+This repo is **private** (team-only access), so the internal brand files (`*PRIVATE*` — messaging framework, internal links) are tracked and included in marketplace installs.
 
-- `.gitignore` excludes every file matching `*PRIVATE*`. The messaging framework summary and internal links never reach GitHub.
-- The packaged `.plugin` file **does** include private files — distribute it through internal channels only (Slack DM, internal drive), never as a public release/attachment.
-- If the repo is later confirmed private, you may remove the `**/*PRIVATE*` line from `.gitignore` — but keeping it is safer.
-- Keep the `PRIVATE` suffix on any new internal file so protection is automatic.
+- **Never make this repo public** without first re-adding `**/*PRIVATE*` to `.gitignore`, removing the private files, and purging git history (they'd remain in old commits).
+- The `.plugin` package also contains the private files — internal distribution only.
+- Keep the `PRIVATE` suffix on new internal files so they're easy to find and protect if visibility ever changes.
 
 ## Google integration
 

@@ -1,7 +1,6 @@
-# PRIVATE brand materials — never push these to GitHub.
-# The repo is treated as public until confirmed private.
-# Internal distribution happens via the packaged .plugin file, which DOES include them.
-**/*PRIVATE*
+# Repo is confirmed PRIVATE (team-only access), so *PRIVATE* brand files are tracked.
+# ⚠️ If this repo is ever made public, restore this line FIRST and purge history:
+# **/*PRIVATE*
 
 # OS noise
 .DS_Store
