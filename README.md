@@ -7,7 +7,9 @@ A one-stop shop for the Avalanche marketing team, trained on Avalanche documenta
 - **Recommended (internal):** install the distributed `avalanche-marketing.plugin` file — it includes the private brand files.
 - From this repo: clone and install the folder as a plugin. Note that private files (`*PRIVATE*`) are **not** in the repo; ask the brand team for them and drop them into `brand/`.
 
-Type `/avalanche-start` in a session to see the welcome menu.
+**Auto-start:** a SessionStart hook makes Claude open each new session with the `/avalanche-start` welcome menu automatically (or, if you lead with a specific request, it handles that and reminds you the menu exists). You can also type `/avalanche-start` anytime.
+
+**Messaging accuracy:** the full messaging framework is baked into the plugin as a local file (`brand/messaging-framework-PRIVATE.md`) — Claude reads it directly, so no Google access or public doc is required at runtime. It's a snapshot: when the source Google Doc changes, refresh the file and re-package.
 
 ## Commands
 
